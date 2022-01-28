@@ -1,5 +1,4 @@
 # Dayz Server Manager
-dayz server manager
 its a tool for dayz server owners with many features.
 
 - download, install and update server
