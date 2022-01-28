@@ -6,3 +6,5 @@ its a tool for dayz server owners with many features.
 - automatic restart server
 - automatic backup on server restarts
 - automatic announcements
+
+if you need help contact me on discord. Hstuf.Amir#4165
