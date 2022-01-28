@@ -1,4 +1,4 @@
-# dayzservermanager
+# Dayz Server Manager
 dayz server manager
 its a tool for dayz server owners with many features.
 
