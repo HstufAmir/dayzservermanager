@@ -4,7 +4,7 @@
   "serverPath": "C:\\Server\\DayZServer",
   "steamCMDPath": "C:\\Server\\steamCMD",
   "serverCommand": "-instanceId=1 -config=serverDZ.cfg -profiles=serverProfile -port=2302 -cpuCount=2 -filePatching -dologs -adminlog -freezecheck",
-  "serverValidate": "false", 
+  "serverValidate": false, 
   "mods": [ 1559212036 ],
   "webhookLink": "work in progress... stay tuned",
   "restartTimes": [ 0, 6, 12, 18 ],

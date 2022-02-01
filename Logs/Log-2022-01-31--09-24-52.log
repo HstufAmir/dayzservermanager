@@ -1,0 +1,21 @@
+09:24:52 AM Monday, 31 January, 2022 - Freegma Dayz Server Manager Log System. Version--v0.1.3.20
+  :[2022-01-31 09:24:52]-[+]- Resources File Founded!
+-------------------------------
+  :[2022-01-31 09:24:52]-[+]- Resources loaded!
+-------------------------------
+  :[2022-01-31 09:24:52]-[+]- Restart Time 1 Loaded.
+-------------------------------
+  :[2022-01-31 09:24:52]-[+]- Restart Time 2 Loaded.
+-------------------------------
+  :[2022-01-31 09:24:52]-[+]- Restart Time 3 Loaded.
+-------------------------------
+  :[2022-01-31 09:24:52]-[+]- Restart Time 4 Loaded.
+-------------------------------
+  :[2022-01-31 09:24:52]-[-]- Can`t Set Resources. System.FormatException: Input string was not in a correct format.
+   at System.Number.ThrowOverflowOrFormatException(ParsingStatus status, TypeCode type)
+   at System.Number.ParseInt32(ReadOnlySpan`1 value, NumberStyles styles, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at DayzServerManager.Util.Util.SetFiles() in E:\C# Projects\DayzServerManager\DayzServerManager\Util\Util.cs:line 297
+-------------------------------
+  :[2022-01-31 09:24:52]-[-]- We Have Problem Contact with Admin
+-------------------------------
