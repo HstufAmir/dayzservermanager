@@ -10,5 +10,6 @@
   "webhookLink": "work in progress... stay tuned",
   "restartTimes": [ 0, 6, 12, 18 ],
   "rcon": [ "127.0.0.1", "rconPort", "rconPassword" ],
-  "BackupPath": "C:\\Server\\Backups"
+  "BackupPath": "C:\\Server\\Backups",
+  "NameAlert": false
 }

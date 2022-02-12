@@ -9,7 +9,7 @@
       "DayzServerManager/1.0.0": {
         "dependencies": {
           "BytexDigital.BattlEye.Rcon": "1.0.3-beta.3",
-          "Discord.Net.Webhook": "2.4.0",
+          "Discord.Net.Webhook": "3.3.0",
           "Newtonsoft.Json": "13.0.1"
         },
         "runtime": {
@@ -27,39 +27,40 @@
           }
         }
       },
-      "Discord.Net.Core/2.4.0": {
+      "Discord.Net.Core/3.3.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1",
-          "System.Collections.Immutable": "1.4.0",
-          "System.Interactive.Async": "4.0.0"
+          "System.Collections.Immutable": "5.0.0",
+          "System.Interactive.Async": "5.0.0",
+          "System.ValueTuple": "4.5.0"
         },
         "runtime": {
-          "lib/netstandard2.1/Discord.Net.Core.dll": {
-            "assemblyVersion": "2.4.0.0",
-            "fileVersion": "2.4.0.0"
+          "lib/net5.0/Discord.Net.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.0.0"
           }
         }
       },
-      "Discord.Net.Rest/2.4.0": {
+      "Discord.Net.Rest/3.3.0": {
         "dependencies": {
-          "Discord.Net.Core": "2.4.0"
+          "Discord.Net.Core": "3.3.0"
         },
         "runtime": {
-          "lib/netstandard2.1/Discord.Net.Rest.dll": {
-            "assemblyVersion": "2.4.0.0",
-            "fileVersion": "2.4.0.0"
+          "lib/net5.0/Discord.Net.Rest.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.0.0"
           }
         }
       },
-      "Discord.Net.Webhook/2.4.0": {
+      "Discord.Net.Webhook/3.3.0": {
         "dependencies": {
-          "Discord.Net.Core": "2.4.0",
-          "Discord.Net.Rest": "2.4.0"
+          "Discord.Net.Core": "3.3.0",
+          "Discord.Net.Rest": "3.3.0"
         },
         "runtime": {
-          "lib/netstandard2.1/Discord.Net.Webhook.dll": {
-            "assemblyVersion": "2.4.0.0",
-            "fileVersion": "2.4.0.0"
+          "lib/net5.0/Discord.Net.Webhook.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.0.0"
           }
         }
       },
@@ -159,7 +160,7 @@
       },
       "Nito.Disposables/2.0.0": {
         "dependencies": {
-          "System.Collections.Immutable": "1.4.0"
+          "System.Collections.Immutable": "5.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/Nito.Disposables.dll": {
@@ -168,26 +169,27 @@
           }
         }
       },
-      "System.Collections.Immutable/1.4.0": {},
-      "System.Interactive.Async/4.0.0": {
+      "System.Collections.Immutable/5.0.0": {},
+      "System.Interactive.Async/5.0.0": {
         "dependencies": {
-          "System.Linq.Async": "4.0.0"
+          "System.Linq.Async": "5.0.0"
         },
         "runtime": {
-          "lib/netcoreapp3.0/System.Interactive.Async.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.2"
+          "lib/netcoreapp3.1/System.Interactive.Async.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
           }
         }
       },
-      "System.Linq.Async/4.0.0": {
+      "System.Linq.Async/5.0.0": {
         "runtime": {
-          "lib/netcoreapp3.0/System.Linq.Async.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.2"
+          "lib/netcoreapp3.1/System.Linq.Async.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
           }
         }
-      }
+      },
+      "System.ValueTuple/4.5.0": {}
     }
   },
   "libraries": {
@@ -203,26 +205,26 @@
       "path": "bytexdigital.battleye.rcon/1.0.3-beta.3",
       "hashPath": "bytexdigital.battleye.rcon.1.0.3-beta.3.nupkg.sha512"
     },
-    "Discord.Net.Core/2.4.0": {
+    "Discord.Net.Core/3.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3nRnZgXtwId/iXJqY/BmbFFOXf18TRExE3JYil6RaUEBEjFF9ufMbhTcE249W0rfTv6F2dzrNKa0yXS912a4Kw==",
-      "path": "discord.net.core/2.4.0",
-      "hashPath": "discord.net.core.2.4.0.nupkg.sha512"
+      "sha512": "sha512-pt4OkL7S5kE6NKWBfkqnRobdckE8BcS6rk9/ax4+j0XtWeY/8uX0mZqjPZcdxXPlsdy/VxRchWN40IryFDiInw==",
+      "path": "discord.net.core/3.3.0",
+      "hashPath": "discord.net.core.3.3.0.nupkg.sha512"
     },
-    "Discord.Net.Rest/2.4.0": {
+    "Discord.Net.Rest/3.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dnC7yId1fPG+WNFKceQTvDB4ZUVP6eneDGpChrT0UXdAFQX18EuN0qVXcZWCDcVTev4ZG3VpN2QENa7TNrxQxA==",
-      "path": "discord.net.rest/2.4.0",
-      "hashPath": "discord.net.rest.2.4.0.nupkg.sha512"
+      "sha512": "sha512-IQFnLDv/8oL9Pvmqj9697SPc3tJYkNxM41sMquZ0Ke6yLtTGXAR8xiirha59CmM4e8dx/FUHH6Qcbao9y+kEJQ==",
+      "path": "discord.net.rest/3.3.0",
+      "hashPath": "discord.net.rest.3.3.0.nupkg.sha512"
     },
-    "Discord.Net.Webhook/2.4.0": {
+    "Discord.Net.Webhook/3.3.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ajQuZvhQMGzkUr1RmB18okjDDigxCmHBrlgGg51LcY87lik4XfWJdVl690AU9l1xl35UVQ/YF4vEDUduczT29w==",
-      "path": "discord.net.webhook/2.4.0",
-      "hashPath": "discord.net.webhook.2.4.0.nupkg.sha512"
+      "sha512": "sha512-tUgn8XZM8BKKv9EbBzFk+UuY4l6Vq2Rh2RYsVXKDNuO5HIEa8UPXyyXtNAjAQNOlL1Pn5g0ltbSnS/eaV6cmyw==",
+      "path": "discord.net.webhook/3.3.0",
+      "hashPath": "discord.net.webhook.3.3.0.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.1": {
       "type": "package",
@@ -294,26 +296,33 @@
       "path": "nito.disposables/2.0.0",
       "hashPath": "nito.disposables.2.0.0.nupkg.sha512"
     },
-    "System.Collections.Immutable/1.4.0": {
+    "System.Collections.Immutable/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-71hw5RUJRu5+q/geUY69gpXD8Upd12cH+F3MwpXV2zle7Bqqkrmc1JblOTuvUcgmdnUtQvBlV5e1d6RH+H2lvA==",
-      "path": "system.collections.immutable/1.4.0",
-      "hashPath": "system.collections.immutable.1.4.0.nupkg.sha512"
+      "sha512": "sha512-FXkLXiK0sVVewcso0imKQoOxjoPAj42R8HtjjbSjVPAzwDfzoyoznWxgA3c38LDbN9SJux1xXoXYAhz98j7r2g==",
+      "path": "system.collections.immutable/5.0.0",
+      "hashPath": "system.collections.immutable.5.0.0.nupkg.sha512"
     },
-    "System.Interactive.Async/4.0.0": {
+    "System.Interactive.Async/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tYEzSDQ3rn0G7sGgjcNB91C3dDRJc8m8Lavvu88dwt8FEwKPGZdp/tFs+lQTdqHDV9UItkGIwI8Aa6gGTvzLoQ==",
-      "path": "system.interactive.async/4.0.0",
-      "hashPath": "system.interactive.async.4.0.0.nupkg.sha512"
+      "sha512": "sha512-QaqhQVDiULcu4vm6o89+iP329HcK44cETHOYgy/jfEjtzeFy0ZxmuM7nel9ocjnKxEM4yh1mli7hgh8Q9o+/Iw==",
+      "path": "system.interactive.async/5.0.0",
+      "hashPath": "system.interactive.async.5.0.0.nupkg.sha512"
     },
-    "System.Linq.Async/4.0.0": {
+    "System.Linq.Async/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WbiYEedFZeM+psmMyoCt1AKbZppAZg8Eq1ZTQ+521fGNeXqlgJj0tZYV5n1LsKRO5osQuitYxGNuzPTy3213sg==",
-      "path": "system.linq.async/4.0.0",
-      "hashPath": "system.linq.async.4.0.0.nupkg.sha512"
+      "sha512": "sha512-cPtIuuH8TIjVHSi2ewwReWGW1PfChPE0LxPIDlfwVcLuTM9GANFTXiMB7k3aC4sk3f0cQU25LNKzx+jZMxijqw==",
+      "path": "system.linq.async/5.0.0",
+      "hashPath": "system.linq.async.5.0.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     }
   }
 }
